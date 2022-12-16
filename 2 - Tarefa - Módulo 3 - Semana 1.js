@@ -73,28 +73,31 @@ document.write("<br>" +"<br>")
 //O número arredondado para cima
 
 
-var valor = [6.7,8.5,6.7,8.5]
+var valor = [2.7,8.5,6.7,8.5]
 var mt=Math.ceil(valor [0]);
 var mt2=Math.ceil(valor [1]);
 
 document.write(`${mt}`+","+ mt2);
+document.write("<br>" +"<br>")
 
 //O número arredondado para baixo
+
 
 var valor = [6.04, 5.46, 9.24, 12.09, 65.46]
 for(var i=0; i < valor.length; i++){
     var mt=Math.ceil(valor [i]);
     document.write(mt+ ",");
 }
-
 document.write(`${mt}`+","+ mt2);
+document.write("<br>" +"<br>")
 
-//O número arredondado para baixo
 
-var valor = [6.04, 5.46, 9.24, 12.09, 65.46]
+//A raiz quadrada
+
+var valor = [1.04, 5.46, 9.24, 12.09, 65.46]
 for(var i=0; i < valor.length; i++){
-    var mt=Math.ceil(valor [i]);
+    var mt=Math.sqrt(valor [i]);
     document.write(mt+ ",");
 }
-
+document.write("<br>" +"<br>")
 
