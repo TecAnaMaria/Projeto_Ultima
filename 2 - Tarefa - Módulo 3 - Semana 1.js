@@ -87,3 +87,14 @@ for(var i=0; i < valor.length; i++){
     document.write(mt+ ",");
 }
 
+document.write(`${mt}`+","+ mt2);
+
+//O número arredondado para baixo
+
+var valor = [6.04, 5.46, 9.24, 12.09, 65.46]
+for(var i=0; i < valor.length; i++){
+    var mt=Math.ceil(valor [i]);
+    document.write(mt+ ",");
+}
+
+
