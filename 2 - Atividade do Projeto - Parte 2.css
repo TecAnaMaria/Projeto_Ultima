@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     cursor: pointer;
@@ -73,6 +73,7 @@ input[type="text"] {
     justify-content:space-between; 
     align-items: center;
     font-size: 12px;
+
     width: 340px;
 }
 
