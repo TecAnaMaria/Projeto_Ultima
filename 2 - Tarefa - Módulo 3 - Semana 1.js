@@ -74,12 +74,11 @@ document.write("<br>" +"<br>")
 
 
 //Apenas a parte inteira
-var valor = [6.04, 5.46, 9.24, 12.9,3.5,]
+var valor = [5.04, 2.46, 9.24, 12.9, 3.5]
 for(var i=0; i < valor.length; i++){
     var mt=Math.trunc(valor [i]);
-    document.write(mt+ ",");
+    document.write(mt+ ",")
 }
-document.write(`${mt}`+","+ mt2);
 document.write("<br>" +"<br>")
 
 
