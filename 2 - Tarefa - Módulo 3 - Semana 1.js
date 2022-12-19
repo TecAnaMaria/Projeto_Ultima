@@ -114,12 +114,11 @@ for(var i=0; i < valor.length; i++){
 document.write("<br>" +"<br>")
 
 
-//O quadrado
 // Não funcionou 
 
 var valor = [4, 5, 9, 10, 6,3];
 for(var i=0; i < valor.length; i++){
-    var mt=Math.pow(valor [i]);
+    var mt=Math.pow(valor [i], 3);
     document.write(mt+ ",");
 }
 document.write("<br>" +"<br>")
